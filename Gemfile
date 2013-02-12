@@ -2,6 +2,7 @@ source :rubygems
 
 # Framework and add-ons.
 gem 'sinatra', '~> 1.3.0'
+gem 'sinatra-datamapper', git: 'git://github.com/jmkeyes/sinatra-datamapper.git'
 gem 'sinatra-partial'
 
 # Persistence.
